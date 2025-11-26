@@ -1,0 +1,17 @@
+{
+	"name": "LS_SQL_DATABASE",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sqlserverspotifyazureproject.database.windows.net",
+			"database": "Sql_Db_Azure_Project",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "admin313",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEI5M0JBRkE4LTRFRjYtNDFEQy05QUU2LUMwOTVBNzNCNkI1RF8zYzc0NjUyZC0xMWQ3LTQ4OWItODlhNy0zZjQwMTNhODUzZmQiDQp9"
+		}
+	}
+}
